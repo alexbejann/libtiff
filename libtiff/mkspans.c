@@ -30,7 +30,7 @@
  * runs of zeros and ones in Group 3 Fax encoding.
  */
 
-dumparray(name, runs) char *name;
+void dumparray(name, runs) char *name;
 unsigned char runs[256];
 {
     int i;
@@ -51,7 +51,7 @@ unsigned char runs[256];
     printf("\n};\n");
 }
 
-main()
+void main()
 {
     unsigned char runs[2][256];
 
