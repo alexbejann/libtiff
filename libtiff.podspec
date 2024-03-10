@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   
     s.platforms = { :ios => "12.0", :osx => "10.13", :watchos => "4.0", :tvos => "12.0" }
   
-    s.source_files = 'libtiff/*'
+    s.source_files = 'libtiff/*.{c,h,cpp,hpp}'
   
   end
