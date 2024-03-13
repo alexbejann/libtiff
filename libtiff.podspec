@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   
     s.source_files = 'libtiff/*.{c,h,cpp,hpp}'
   
-    s.dependency 'libport', '~> 1.0.0'
+    s.dependency 'libport', '~> 4.6.0'
   end
