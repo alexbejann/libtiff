@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.license = { :type => "MIT",
                   :file => "LICENSE" }
     s.author  = 'libtiff contributors', 'Open Source Geospatial Foundation' , 'Alex Bejan'
-    s.source  = { :git => "https://gitlab.com/alexbejann/libtiff.git", :tag => s.version.to_s }
+    s.source  = { :git => "https://github.com/alexbejann/libtiff.git", :tag => s.version.to_s }
   
     s.platforms = { :ios => "12.0", :osx => "10.13", :watchos => "4.0", :tvos => "12.0" }
   
