@@ -27,7 +27,7 @@
  * in Frank Cringle's viewfax program;
  *      Copyright (C) 1990, 1995  Frank D. Cringle.
  */
-#include "libport.h"
+// #include "libport.h"
 #include "tif_config.h"
 
 #include <stdio.h>
