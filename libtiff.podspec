@@ -7,11 +7,11 @@ Pod::Spec.new do |s|
     DESC
     s.homepage = "https://libtiff.gitlab.io/libtiff/"
     s.license = { :type => "MIT",
-                  :file => "LICENSE" }
+                  :file => "LICENSE.md" }
     s.author  = 'libtiff contributors', 'Open Source Geospatial Foundation' , 'Alex Bejan'
     s.source  = { :git => "https://github.com/alexbejann/libtiff.git", :tag => s.version.to_s }
   
-    s.platforms = { :ios => "12.0", :osx => "10.13", :watchos => "4.0", :tvos => "12.0" }
+    s.platforms = { :ios => "12.0", :osx => "10.13", }
   
     s.source_files = 'libtiff/*.{h,c}'
   
